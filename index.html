@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="stars-container">
+        <img src="images/stars-bg.png" id="stars-1">
+        <img src="images/stars-bg.png" id="stars-2">
+        <img src="images/stars-bg.png" id="stars-3">
+        <img src="images/stars-bg.png" id="stars-4">
+        <img src="images/stars-bg.png" id="stars-5">
+    </div>
+    <div class="floating-crewmates">
+        <img src="images/among us (red).png" class="crewmate red" alt="Red Crewmate">
+        <img src="images/among us (cyan).png" class="crewmate cyan" alt="Cyan Crewmate">
+    </div>
+    <div class="main-container">
+        <div class="main">
+            <h1>WHO IS THE DEVELOPER?</h1><br>
+            <h1 id="name">MOHAMMAD HAMMAD</h1>
+            <nav class="main-menu">
+                <button class="menu-btn" data-target="home">HOME</button>
+                <button class="menu-btn" data-target="about">ABOUT</button>
+                <button class="menu-btn" data-target="skills">SKILLS</button>
+                <button class="menu-btn" data-target="projects">PROJECTS</button>
+                <button class="menu-btn" data-target="experiences">EXPERIENCES</button>
+                <button class="menu-btn" data-target="certificates">CERTIFICATES</button>
+                <button class="menu-btn" data-target="contact">CONTACT</button>
+            </nav>
+        </div>
+        <div>
+            <section id="home">
+                <h2>WELCOME</h2>
+                <p>There is 1 Developer among us.</p>
+                <br><br>
+                <p>Scroll down to complete your tasks.</p>
+            </section>
+
+            <section id="about">
+                <h2>ABOUT ME</h2>
+                <p>I’m a passionate devloper who loves building things in space (and on Earth too).</p>
+                <br>
+                <p>I focus on writing clean codeand creating smooth, immersive user experinces.</p>
+                <br>
+                <p>I’m always coding, always learning, and trying to make effective programs such as small apps and interactive sites.</p>
+            </section>
+
+            <section id="skills">
+                <h2>SKILLS</h2>
+                <ul class="skill-list">
+                    <li>HTML / CSS / JS</li>
+                    <li>Node.js / Express</li>
+                    <li>C / C++</li>
+                    <li>Python </li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>PROJECTS</h2>
+                <div class="project-list">
+                    <div>
+                        <h3>Key Mapper</h3>
+                        <p>A script that returns registry values upon pressing the key.</p>
+                        <a href="https://drive.google.com/file/d/1z7JJUu7CFum9hjfAAtEYB-mgS-brcKd8/view?usp=drive_link">View Drive</a>
+                    </div>
+                    <br>
+                    <div>
+                        <h3>Smart Inventory Planner</h3>
+                        <p>A console-based program that suggest order amount of inventory based on previous data provided.</p>
+                        <a href="https://drive.google.com/file/d/10TlBINu7sITYaLIqgc5sDrBt8nniuqF8/view?usp=drive_link">View Drive</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experiences">
+                <h2>EXPERIENCES</h2>
+                <div>
+                    <h3>Hackathon Participant – Fast-NUCES Hackathon 2023</h3>
+                    <p><i>2023</i></p>
+                    <p>Contributed as the frontend lead, building responsive interfaces and helping deliver a polished project under time pressure.</p>
+                </div>
+                <br>
+                <div>
+                    <h3>Software Intern</h3>
+                    <p><i>Fixit HQ | 2018 - 2020</i></p>
+                    <p>Completed backend tasks efficiently, writing scripts and features that improved internal tools and workflow stability.</p>
+                </div>
+            </section>
+
+            <section id="certificates">
+                <h2>CERTIFICATES</h2>
+                <img src="images/O-2(certificate).jpg" alt="o-level-certificate" id="certificate-1">
+                <img src="images/A2 Certificate.jpg" alt="a-level-certtificate" id="certificate-2">
+            </section>
+
+            <section id="contact">
+                <h2>CONTACT</h2>
+                <p>Email: <a href="mohammad.hammad100@gmail.com">mohammad.hammad100@gmail.com</a></p>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
